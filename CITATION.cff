@@ -1,12 +1,51 @@
 cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
 title: "Swedish Building Material Specifications"
-message: "If you use this work, please cite it."
-type: software
+abstract: >-
+  Open reference dataset of Swedish building material specifications covering
+  concrete (SS-EN 206), structural timber (SS-EN 338), insulation (U-values,
+  lambda), fire classifications (Euroclass SS-EN 13501-1), and moisture class
+  requirements. Includes regulatory references to Boverkets byggregler (BBR)
+  and Eurocode standards. Designed for construction professionals,
+  AI/NLP training, and technical documentation generators.
 authors:
   - name: "Zaragoza AB"
-    city: Helsingborg
+    affiliation: "Zaragoza AB, Helsingborg, Sweden"
+    city: "Helsingborg"
     country: SE
+    email: "info@zaragoza.se"
     website: "https://zaragoza.se"
-repository-code: "https://github.com/zaragoza-ab/byggmaterial-spec-sweden"
 license: CC-BY-4.0
+repository-code: "https://github.com/zaragoza-ab/byggmaterial-spec-sweden"
+version: "1.0.0"
 date-released: "2026-04-17"
+keywords:
+  - "swedish construction"
+  - "building materials"
+  - "byggmaterial"
+  - "concrete"
+  - "timber"
+  - "insulation"
+  - "fire classification"
+  - "euroclass"
+  - "BBR"
+  - "SS-EN 206"
+  - "SS-EN 338"
+  - "SS-EN 13501-1"
+identifiers:
+  - type: url
+    value: "https://www.wikidata.org/wiki/Q139393818"
+    description: "Wikidata entity"
+  - type: other
+    value: "Q139393818"
+    description: "Wikidata QID"
+preferred-citation:
+  type: dataset
+  title: "Swedish Building Material Specifications"
+  authors:
+    - name: "Zaragoza AB"
+      affiliation: "Zaragoza AB, Helsingborg, Sweden"
+  year: 2026
+  version: "1.0.0"
+  url: "https://github.com/zaragoza-ab/byggmaterial-spec-sweden"
