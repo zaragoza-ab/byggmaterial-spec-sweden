@@ -1,0 +1,10 @@
+title: "Swedish Building Material Specifications"
+description: "Open reference for Swedish building material specifications — concrete classes, wood grades, insulation lambdas, fire classes."
+theme: jekyll-theme-cayman
+plugins: [jekyll-sitemap, jekyll-seo-tag]
+url: "https://zaragoza-ab.github.io"
+baseurl: "/byggmaterial-spec-sweden"
+author:
+  name: "Zaragoza AB"
+  email: "info@zaragoza.se"
+  url: "https://zaragoza.se"

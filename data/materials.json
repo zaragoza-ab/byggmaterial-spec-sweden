@@ -1,0 +1,155 @@
+{
+  "_meta": {
+    "title": "Swedish Building Material Specifications",
+    "maintainer": "Zaragoza AB",
+    "license": "CC BY 4.0",
+    "updated": "2026-04-17"
+  },
+  "materials": [
+    {
+      "id": "betong-c25-30-xc1",
+      "category": "betong",
+      "name": "Betong C25/30 XC1",
+      "standard": "SS-EN 206",
+      "strength_class": "C25/30",
+      "exposure_class": "XC1",
+      "typical_use": "Invändig plattgrund, torra miljöer",
+      "notes": "Lägsta klass för bärande invändiga konstruktioner"
+    },
+    {
+      "id": "betong-c30-37-xc3",
+      "category": "betong",
+      "name": "Betong C30/37 XC3",
+      "standard": "SS-EN 206",
+      "strength_class": "C30/37",
+      "exposure_class": "XC3",
+      "typical_use": "Utomhus skyddat, balkonger under tak",
+      "notes": "Vanlig kombination för utomhuskonstruktioner med visst väderskydd"
+    },
+    {
+      "id": "betong-c35-45-xd3",
+      "category": "betong",
+      "name": "Betong C35/45 XD3",
+      "standard": "SS-EN 206",
+      "strength_class": "C35/45",
+      "exposure_class": "XD3",
+      "typical_use": "Konstruktioner utsatta för kloridhaltigt vatten, parkeringshus",
+      "notes": "Används i broar, parkeringsdäck, hamnar"
+    },
+    {
+      "id": "konstruktionsvirke-c24",
+      "category": "virke",
+      "name": "Konstruktionsvirke C24",
+      "standard": "SS-EN 338",
+      "strength_class": "C24",
+      "typical_use": "Takstolar, bjälkar, regelverk",
+      "notes": "Standardval för bostadsbyggnation i Sverige. Böjhållfasthet 24 MPa"
+    },
+    {
+      "id": "konstruktionsvirke-c30",
+      "category": "virke",
+      "name": "Konstruktionsvirke C30",
+      "standard": "SS-EN 338",
+      "strength_class": "C30",
+      "typical_use": "Spännvidder > 6 m, större laster",
+      "notes": "Dyrare än C24, används när C24 inte räcker dimensionsmässigt"
+    },
+    {
+      "id": "limtra-gl28h",
+      "category": "virke",
+      "name": "Limträ GL28h",
+      "standard": "SS-EN 14080",
+      "strength_class": "GL28h",
+      "typical_use": "Stora spännvidder, takbalkar, hallar",
+      "notes": "Homogent limträ; starkare och rakare än vanligt konstruktionsvirke"
+    },
+    {
+      "id": "mineralull-lambda-0-036",
+      "category": "isolering",
+      "name": "Mineralull λ=0.036 W/(m·K)",
+      "standard": "SS-EN 13162",
+      "typical_use": "Väggar, tak, vindbjälklag",
+      "notes": "Vanlig stenullsisolering för villa"
+    },
+    {
+      "id": "mineralull-lambda-0-033",
+      "category": "isolering",
+      "name": "Mineralull λ=0.033 W/(m·K)",
+      "standard": "SS-EN 13162",
+      "typical_use": "Energieffektiva hus, passivhus",
+      "notes": "Premiumklass mineralull för bättre U-värde vid samma tjocklek"
+    },
+    {
+      "id": "eps-lambda-0-031",
+      "category": "isolering",
+      "name": "EPS S100 λ=0.031 W/(m·K)",
+      "standard": "SS-EN 13163",
+      "typical_use": "Grundisolering, bottenbjälklag",
+      "notes": "Fuktokänslig, lämpar sig under platta"
+    },
+    {
+      "id": "cellulosaisolering-lambda-0-038",
+      "category": "isolering",
+      "name": "Cellulosaisolering λ=0.038 W/(m·K)",
+      "standard": "SS-EN 15101",
+      "typical_use": "Lösull i vindsbjälklag, väggar",
+      "notes": "Återvunnen tidningspapper; bra fuktbuffert"
+    },
+    {
+      "id": "stal-s235",
+      "category": "stal",
+      "name": "Konstruktionsstål S235",
+      "standard": "SS-EN 10025",
+      "strength_class": "S235",
+      "typical_use": "Vanliga profiler, balkar, pelare i bostadsbyggnation"
+    },
+    {
+      "id": "stal-s355",
+      "category": "stal",
+      "name": "Konstruktionsstål S355",
+      "standard": "SS-EN 10025",
+      "strength_class": "S355",
+      "typical_use": "Större spännvidder, industribyggnader",
+      "notes": "Högre hållfasthet; oftast dyrare per kg"
+    },
+    {
+      "id": "euroclass-a1",
+      "category": "brandklass",
+      "name": "Brandklass A1",
+      "standard": "SS-EN 13501-1",
+      "typical_use": "Obrännbara material (betong, stål, mineralull)",
+      "notes": "Högsta brandklass; bidrar ej alls till brand"
+    },
+    {
+      "id": "euroclass-b-s1-d0",
+      "category": "brandklass",
+      "name": "Brandklass B-s1,d0",
+      "standard": "SS-EN 13501-1",
+      "typical_use": "Väggbeklädnader i flerbostadshus > 2 våningar",
+      "notes": "Mycket begränsat bidrag, liten rökutveckling, inga brinnande droppar"
+    },
+    {
+      "id": "betongpannor",
+      "category": "taktackning",
+      "name": "Betongpannor",
+      "standard": "SS-EN 490",
+      "typical_use": "Villataktäckning",
+      "notes": "Livslängd 40-60 år; vikt ~45 kg/m² — kräver bärkraftig konstruktion"
+    },
+    {
+      "id": "lertegel",
+      "category": "taktackning",
+      "name": "Lertegel",
+      "standard": "SS-EN 1304",
+      "typical_use": "Traditionell villataktäckning",
+      "notes": "Livslängd 60-100 år; vikt ~50 kg/m²; estetiskt värdefullt på kulturhistoriska byggnader"
+    },
+    {
+      "id": "plattak-bandplatad",
+      "category": "taktackning",
+      "name": "Bandplåt (falsat)",
+      "typical_use": "Modern takbeklädnad",
+      "notes": "Livslängd 40-70 år; vikt ~7 kg/m²; lättare konstruktion räcker"
+    }
+  ]
+}
